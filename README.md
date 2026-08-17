@@ -1,37 +1,25 @@
-# Programming Essentials
-
-Welcome to my Programming Essentials repository.
-
-I am currently studying programming at DeVry University and using this repository to document my progress as I develop my software development skills.
-
-## Current Coursework
-
-- TECH110 - Coding and Scripting
-- TECH112 - AI in Industry
-
-## Completed Coursework
-
-- TECH101 - Technology Fundamentals
-- MATH114 - Algebra for College Students
-
-## Upcoming Coursework
-
-- SIS150 - Fundamentals of Programming
-- SIS110 - Operating Systems Basics
-
-## Skills I'm Developing
-
-- Programming fundamentals
-- Coding and scripting
-- Problem solving
-- Artificial intelligence concepts
-- Operating systems
-- Software development
-
 ## Projects
 
-Projects and programming exercises will be added as I progress through my coursework.
+### Financial Calculator v1.0
 
-## Career Goal
+A Python-based financial calculator that accepts monthly income and expenses, calculates remaining monthly income, and analyzes the percentage of income being used for expenses.
 
-My goal is to develop the technical skills and practical experience necessary to begin a career in software development.
+**Features:**
+- Accepts user input for monthly income and expenses
+- Calculates remaining monthly income
+- Formats results as currency
+- Calculates expenses as a percentage of income
+- Uses conditional logic to provide feedback based on expense levels
+
+**Python Concepts Used:**
+- Variables
+- User input
+- `float()` data conversion
+- Mathematical operations
+- F-strings
+- Number formatting
+- `if`, `elif`, and `else` conditional statements
+
+### Hello World
+
+My first Python program demonstrating basic Python syntax, variables, user input, data types, and formatted strings.
