@@ -37,3 +37,4 @@ A Python-based financial calculator that accepts monthly income and expenses, ca
 - **v1.0** - Created the initial financial calculator with calculations and conditional analysis
 - **v1.1** - Added input validation, exception handling, and protection against zero income
 - **v1.2** - Refactored the program using reusable functions and improved code organization
+- **v1.3** - Added suggested savings calculations, remaining balance after savings, and savings affordability analysis
