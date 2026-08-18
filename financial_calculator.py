@@ -35,6 +35,19 @@ def calculate_expense_percentage(income, expenses):
     percentage = (expenses / income) * 100
     return percentage
 
+def calculate_savings(income):
+    savings = income * 0.20
+    return savings
+
+def calculate_after_savings(balance, savings):
+    remaining_after_savings = balance - savings
+    return remaining_after_savings
+
+def analyze_savings(remaining_after_savings):
+    if remaining_after_savings < 0:
+        print("Savings Alert: The suggested savings amount exceeds your available income.")
+    else:
+        print("Savings Goal: The suggested savings amount fits within your current budget.")
 
 def analyze_expenses(percentage):
     if percentage > 80:
@@ -53,11 +66,17 @@ expense_percentage = calculate_expense_percentage(
     monthly_income, monthly_expenses
 )
 
+suggested_savings = calculate_savings(monthly_income)
+remaining_after_savings = calculate_after_savings(money_remaining, suggested_savings)
+
 print(f"You have ${money_remaining:,.2f} remaining each month.")
 print(f"Your expenses use {expense_percentage:.1f}% of your monthly income.")
+print(f'suggested monthly savings: ${suggested_savings:,.2f}')
+print(
+    f"Money remaining after suggested savings: "
+    f"${remaining_after_savings:,.2f}"
+)
 
 analyze_expenses(expense_percentage)
-        
-
-
+analyze_savings(remaining_after_savings)
 
