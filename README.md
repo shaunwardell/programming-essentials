@@ -1,6 +1,6 @@
 ## Projects
 
-### Financial Calculator v1.2
+### Financial Calculator v1.3
 
 ### Financial Calculator v1.2
 
