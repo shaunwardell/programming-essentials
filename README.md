@@ -2,7 +2,7 @@
 
 ### Financial Calculator v1.3
 
-### Financial Calculator v1.2
+
 
 A Python-based financial calculator that accepts monthly income and expenses, calculates remaining monthly income, and analyzes the percentage of income being used for expenses.
 
